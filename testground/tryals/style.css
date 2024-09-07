@@ -1,0 +1,46 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#addbtn {
+    color: #fff;
+    background-color: rgb(62, 110, 214);
+    border-radius: 50%;
+    padding: 6px 6px;
+}
+
+#taskList {
+    background-color: rgb(85, 212, 85);
+    padding: 14px 14px;
+    margin-top: 5px;
+    border-radius: 7px;
+    width: 400px;
+    list-style-type: none;
+}
+
+.listStyle {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.delStyle {
+    background-color: tomato;
+    padding: 8px 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+
